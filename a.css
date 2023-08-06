@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(0, 36%, 95%);
+  }
+  .head {
+    color: #00cc66;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .big-box {
+    display: flex;
+    justify-content: space-around; /* Adjust the alignment of sub-boxed sections */
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #333; /* Add a border to the big box */
+    border-radius: 5px;
+    padding: 10px; /* Add some padding around sub-boxes */
+  }
+  
+  .sub-box1 {
+    width: 300px;
+    height: 60px;
+    border: 2px solid #7a7a7a;
+    border-radius: 5px;
+    background-color: #fff;
+   flex-direction: column;
+    justify-content:left;
+    align-items: left;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+  }
+  .sub-box1:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+ 
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+
+  
+ .sub-box2 {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #2e2c2c;
+    border-radius: 5px;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: left;
+    
+  }
+  .sub-box2:hover{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .sub-box3 {
+    width: 340px;
+    height: 100px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  
+  h1 {
+    color: #333;
+  }
+ 
+  .green-button{
+    padding: 10px 20px;
+    background-color: #00cc66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+  }
+  
+  .green-button {
+    background-color: #00994d;
+  }
